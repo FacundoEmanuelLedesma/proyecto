@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotiseria Luna</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="./assets/mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <img src="assets\logo pizzeria.jpeg" class="header-logo">
+        <h1><a href="#">Rotiseria Luna</a></h1>
+        <label for="menu-toggle" class="nav-icon">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" name="menu-toggle" id="menu-toggle">
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">Beneficios</a></li>
+                <li><a href="#products">Descuentos</a></li>
+                <li><a href="#contact">Contactanos</a></li>
+                
+
+            </ul>
+            <div class="navbar-login">
+                <span class="nav-signin"><a href="./register.html">Crear cuenta</a></span>
+
+
+                <span class="nav-login"><a href="./login.html">ya tengo un usuario </a></span>
+            </div>
+        </nav>
+        <div class="login-section">
+            <h3 class="login-button signin"><a href="./register.html">Creá tu cuenta</a></h3>
+            <h3 class="login-button login"><a href="./login.html">Ingresá</a></h3>
+        </div>
+        <div class="cart">
+            <label for="cart-toggle" class="cart-icon">
+                <i class="fa-solid fa-bag-shopping"></i>
+            </label>
+            <input type="checkbox" name="cart-toggle" id="cart-toggle">
+            <div class="cart-list">
+                <h3 class="cart-tittle">Carrito (0)</h3>
+                <span class="cart-msg">Tu carrito está vacio</span>
+                <span class="cart-btn">Continuar compra</span>
+            </div>
+            <div class="cart-overlay"></div>
+        </div>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="hero-info">
+                <img src="assets\pizzeria final.jpeg" alt="pizzeria luna">
+                <p > Te acercamos el producto, sin costos de envio extra.   </p>
+                <p class="hero-info-link">Visita <a href="#">nuestra tienda.</a></p>
+            </div>
+            <div class="hero-img">
+                <img src="./assets/images/img-hero-mate.jpg" alt="Rotiseria Luna">
+            </div>
+        </section>
+        <section id="about">
+            <div class="about-card">
+                <div class="about-card-icon">
+                    <i class="fa-solid fa-truck-fast"></i>
+                </div>
+                <h1 class="about-card-tittle">
+                    Envios
+                </h1>
+                <p class="about-card-text">
+                    Envio gratis o a traves de apps de envio, Pedidos ya etc,
+                </p>
+            </div>
+            <div class="about-card">
+                <div class="about-card-icon">
+                    <i class="fa-solid fa-money-check-dollar"></i>
+                </div>
+                <h1 class="about-card-tittle">
+                    Medios de pago
+                </h1>
+                <p class="about-card-text">
+                    Aceptamos tarjeta de débito, crédito o
+                    transferencias.
+                </p>
+            </div>
+            <div class="about-card">
+                <div class="about-card-icon">
+                    <i class="fa-solid fa-credit-card"></i>
+                </div>
+                <h1 class="about-card-tittle">
+                    Combos</h1>
+                <p class="about-card-text">
+                    Conoce nuestros combos a tu medida.
+                </p>
+            </div>
+            
+
+
+                
+                <img src="assets\logo drinks 1.png" alt="combos">
+                <h1 class="about-card-tittle">
+                    Combos de Bebidas
+                </h1>
+                <p class="about-card-text">
+                    Elegi el combo que mas se adapte a tu compra.
+                </p>
+
+            <img src="assets\drinks.png" alt="bebidas">
+            </div>
+        </section>
+        <section id="products">
+            <h2>Ofertas segun el dia!</h2>
+            <div class="product-cards">
+                <div class="product">
+                    <img src="assets\pizza-burger-plats-italiens 1.jpg">
+                    <div class="product-info">
+                        <h4>Lunes</h4>
+                        <p>Pastel de Papa </p>
+                    </div>
+                    <div class="product-price">
+                        <span class="product-list-price">111$</span>
+                        <div class="product-price-offer">
+                            <span class="product-offer">111$</span>
+                            <span class="product-discount">15% Oferta en efectivo!</span>
+                        </div>
+                    </div>
+                    <div class="product-buttons">
+                        <div class="add-to-cart button">
+                            <span>Agregar al carrito</span>
+                        </div>
+                        <div class="buy-now button">
+                            <span>Comprar</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="./assets/images/D_NQ_NP_711654-MLA50607559719_072022-O.webp" alt="pastel de papa">
+                    <div class="product-info">
+                        <h4>Martes</h4>
+                        <p>Milanesa Con guarnicion </p>
+                    </div>
+                    <div class="product-price">
+                        <span class="product-list-price">111$</span>
+                        <div class="product-price-offer">
+                            <span class="product-offer">111$</span>
+                            <span class="product-discount">15% Oferta en efectivo!</span>
+                        </div>
+                    </div>
+                    <div class="product-buttons">
+                        <div class="add-to-cart button">
+                            <span>Agregar al carrito</span>
+                        </div>
+                        <div class="buy-now button">
+                            <span>Comprar</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="./assets/images/D_NQ_NP_783156-MLA50714546886_072022-O.webp"
+                        alt="milanesa con guarnicion">
+                    <div class="product-info">
+                        <h4>Miercoles</h4>
+                        <p>Costillitas de cerdo Con guarnicion</p>
+                    </div>
+                    <div class="product-price">
+                        <span class="product-list-price">1111</span>
+                        <div class="product-price-offer">
+                            <span class="product-offer">1111</span>
+                            <span class="product-discount">15% Oferta en efectivo! </span>
+                        </div>
+                    </div>
+                    <div class="product-buttons">
+                        <div class="add-to-cart button">
+                            <span>Agregar al carrito</span>
+                        </div>
+                        <div class="buy-now button">
+                            <span>Comprar</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product hidden920px">
+                    <img src="./assets/images/D_NQ_NP_813618-MLA46121646793_052021-O.webp" alt="costillas de cerdo ">
+                    <div class="product-info">
+                        <h4>Jueves</h4>
+                        <p>Suprema de pollo Napolitana con Guarnicion </p>
+                    </div>
+                    <div class="product-price">
+                        <span class="product-list-price">111$</span>
+                        <div class="product-price-offer">
+                            <span class="product-offer">111$</span>
+                            <span class="product-discount">15% Oferta en efectivo!</span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="product-buttons">
+                        <div class="add-to-cart button">
+                            <span>Agregar al carrito</span>
+                        </div>
+                        <div class="buy-now button">
+                            <span>Comprar</span>
+                            <img src="./assets/images/D_NQ_NP_813618-MLA46121646793_052021-O.webp" alt="Suprema">
+                        </div>
+                    </div>
+
+
+
+
+                    <h4>Viernes</h4>
+                    <p>Hamburguesa completa + cono de papas </p>
+                </div>
+                <div class="product-price">
+                    <span class="product-list-price">111$</span>
+                    <div class="product-price-offer">
+                        <span class="product-offer">111$</span>
+                        <span class="product-discount">15% Oferta en efectivo!</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="product-buttons">
+                    <div class="add-to-cart button">
+                        <span>Agregar al carrito</span>
+                    </div>
+                    <div class="buy-now button">
+                        <span>Comprar</span>
+                        <img src="./assets/images/D_NQ_NP_813618-MLA46121646793_052021-O.webp" alt="hamburguesa">
+                    </div>
+                </div>
+
+
+
+                <h4>Sabado</h4>
+                <p>Pollo Entero con Fritas </p>
+            </div>
+            <div class="product-price">
+                <span class="product-list-price">111$</span>
+                <div class="product-price-offer">
+                    <span class="product-offer">111$</span>
+                    <span class="product-discount">15% Oferta en efectivo!</span>
+                </div>
+            </div>
+
+
+            <div class="product-buttons">
+                <div class="add-to-cart button">
+                    <span>Agregar al carrito</span>
+                </div>
+                <div class="buy-now button">
+                    <span>Comprar</span>
+                </div>
+            </div>
+            </div>
+            <div class="product">
+                <img src="./assets/images/D_NQ_NP_711654-MLA50607559719_072022-O.webp" alt="pollo entero con fritas">
+                <div class="product-info">
+
+                </div>
+                <div class="product-price">
+                    <span class="product-list-price">1111</span>
+
+                </div>
+                <div class="to-right">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+            </div>
+
+        </section>
+        <p> CON LA COMPRA DE 2 MUZZA TE LLEVAS 1 DE REGALO. 3X2</p>
+        <div class="store-button">
+            <a href="#">Ir a la tienda</a>
+        </div>
+
+
+        <section id="contact">
+            <div class="contact-info">
+                <div class="social-media">
+                    <h3>Redes Sociales</h3>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i> Pizzeria Luna</a>
+                    <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i> PizzasyemapanadasLuna</a>
+                    <a href="https://www.tiktok.com/"><i class="fa-brands fa-tiktok"></i> Web: Sitio Oficial </a>
+                </div>
+                <div class="contact-dir">
+                    <h3>Contacto</h3>
+                    <span><i class="fa-regular fa-envelope"></i> pizzasyempanadasluna@gmail.com</span>
+                    <span><i class="fa-solid fa-phone"></i> 011 xxxxxxxxx</span>
+                    <span><i class="fa-solid fa-store"></i> Calle 123</span>
+                </div>
+                <div class="newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Suscribase a nuestro newsletter mensual!</p>
+                    <form action="" class="newsletter-form">
+                        <input type="email" name="email" id="email" placeholder="Ingrese su e-mail">
+                        <input type="submit" value="Suscribirse" id="susc-btn">
+                    </form>
+                </div>
+            </div>
+            <div class="map-iframe"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0"
+                    marginwidth="0"
+                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=Av.%20C%C3%B3rdoba%202501,%20Buenos%20Aires+(Yerbatera)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                        href="https://www.gps.ie/car-satnav-gps/">GPS devices</a></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <span><a href="#">Terminos y Condiciones</a></span>
+        <span>Rotiseria Luna</span>
+        <span><a href="#">Botón de Arrepentimiento</a></span>
+    </footer>
+</body>
+
+</html>
